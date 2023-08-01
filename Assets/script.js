@@ -6,6 +6,9 @@
 var today = dayjs().format("dddd, MMMM D ");
 $("#currentDay").append(today);
 
+var currentTime = dayjs().format("h A");
+console.log(currentTime);
+
 // Hours in work day
 
 var workHours = [
