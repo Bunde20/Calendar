@@ -1,3 +1,7 @@
+.border {
+  border-bottom: 10px solid black!important;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
