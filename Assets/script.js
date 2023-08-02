@@ -28,9 +28,15 @@ $(function () {
     alert.append(alertMessage);
 
     localStorage.setItem(key, value);
+
+    setTimeout(function() {
+      alertMessage.remove();
+    }, 1500);
   });
 
   for (var i = 9; i <= 17; i++) {
     $(`#hour-${i} textarea`).val(localStorage.getItem(`hour-${i}`))
   };
 });
+
+
