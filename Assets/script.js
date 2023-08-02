@@ -1,11 +1,12 @@
 $(function () {
   // Current Day
-  var timeBlock = $(".time-block")
-  var save = $(".saveBtn")
+  var timeBlock = $(".time-block");
+  var save = $(".saveBtn");
+  var alert = $(".alert");
 
-  $("#currentDay").append(today);
   var today = dayjs().format("dddd, MMMM D ");
-  var currentHour = dayjs().hour()
+  $("#currentDay").append(today);
+  var currentHour = dayjs().hour();
 
   timeBlock.each(function () {
     var blockValue = $(this).attr("id").slice(5)
@@ -16,14 +17,20 @@ $(function () {
     } else {
       $(this).children(".description").attr("class", "col-8 col-md-10 description present")
     }
-  })
+  });
 
   save.on("click", function (event) {
-    event.preventDefault()
-    var key = $(this).parent().attr("id")
-    var value = $(this).siblings(".description").val()
-  
-     localStorage.setItem(key,value )
-  })
+    event.preventDefault();
+    var key = $(this).parent().attr("id");
+    var value = $(this).siblings(".description").val();
+    var alertMessage = $("<h5></h5>");
+    alertMessage.text("Event added to localStorage");
+    alert.append(alertMessage);
 
+    localStorage.setItem(key, value);
+  });
+
+  for (var i = 9; i <= 17; i++) {
+    $(`#hour-${i} textarea`).val(localStorage.getItem(`hour-${i}`))
+  };
 });
