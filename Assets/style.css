@@ -1,5 +1,20 @@
+#hour-9 {
+  border-top: 10px solid black!important;
+  border-radius: 0;
+}
+
 .border {
-  border-bottom: 10px solid black!important;
+  border: none!important;
+}
+
+#currentDay {
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.alert {
+  color: #06aed5;
+  font-weight: 300;
 }
 
 body {

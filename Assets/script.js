@@ -23,8 +23,8 @@ $(function () {
     event.preventDefault();
     var key = $(this).parent().attr("id");
     var value = $(this).siblings(".description").val();
-    var alertMessage = $("<h5></h5>");
-    alertMessage.text("Event added to localStorage");
+    var alertMessage = $("<h3></h3>");
+    alertMessage.text("Event added to localStorage \u2705");
     alert.append(alertMessage);
 
     localStorage.setItem(key, value);
