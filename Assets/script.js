@@ -6,11 +6,11 @@
 var today = dayjs().format("dddd, MMMM D ");
 $("#currentDay").append(today);
 
+//Current Time
 var currentTime = dayjs().format("h A");
 console.log(currentTime);
 
 // Hours in work day
-
 var workHours = [
     { time: "9 AM", 
         event: "" },
@@ -32,7 +32,18 @@ var workHours = [
         event: "" },
 ];
 
+// Display work hours
 console.log(workHours);
+
+// Append containers for work hours w/ colors
+
+
+
+// Save click event to local storage
+
+
+
+
 
 
 $(function () {
