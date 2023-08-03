@@ -16,10 +16,10 @@
     - When the user clicks on the save icon displayed on the right the information that they have entered will remain in the text box and local storage for them to reference back to even after refreshing the broswer.
 
 ## Usage
-![PG mock up](https://github.com/Bunde20/Password-Generator/assets/135177057/3e55ac12-33d9-4bde-b338-f2d66bba8330)
+![05-third-party-apis-homework-demo](https://github.com/Bunde20/Calendar/assets/135177057/61e37fb5-eb69-4423-8309-0b26c00dcb08)
 
 ## Credits
-The starter code was provided by Xandromus: [https://github.com/coding-boot-camp/urban-octo-telegram](https://github.com/coding-boot-camp/friendly-parakeet)
+The starter code was provided by Xandromus: https://github.com/coding-boot-camp/crispy-octo-meme
 
 ## Deployed Application Link
 Here is a link to the deployed application: https://bunde20.github.io/Password-Generator/
