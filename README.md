@@ -22,4 +22,4 @@
 The starter code was provided by Xandromus: https://github.com/coding-boot-camp/crispy-octo-meme
 
 ## Deployed Application Link
-Here is a link to the deployed application: https://bunde20.github.io/Password-Generator/
+Here is a link to the deployed application: https://bunde20.github.io/Calendar/
